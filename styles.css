@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+#fig {
+  width: 260px;
+  height: 33px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+li {
+  list-style: none;
+}
+.menu {
+  display: flex;
+}
+.menu-item {
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight:500;
+  line-height: 30px;
+  color:#ababab;
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+  width: 200px;
+  /* height: auto; */
+  margin-left: -50px;
+  box-shadow: 0px 0px 10px gray;
+  background-color: #fff;
+}
+
+.menu-item:hover .drop-menu {
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+}
+.drop-menu-item {
+  margin-bottom: 8px;
+  margin-top: 10px;
+  color: grey;
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.s1 {
+  text-align: center;
+padding-top: 100px;}
+.s2 {
+  font-size: 25px;
+  font-weight:normal;
+  color: rgb(0, 179, 155);
+  line-height: 10.2px;
+  font-family: "Work Sans", Arial, sans-serif;
+  text-align: center;
+
+}
+.s3 {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.s3 p {
+  width: 35%;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #747474;
+  
+ 
+}
+
+.pdd,.pp{
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 200;
+line-height: 28.8px;
+font-family: "Work Sans", Arial, sans-serif;
+padding: 0px 0px 70px 10px ;
+margin-top: 10px;
+
+}
+.pcc{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  font-family: "Work Sans", Arial, sans-serif;
+  padding: 0px 0px 30px 10px ;
+  margin-top: 10px;
+  }
+.ra{
+  padding: 10px 0px 0px 10px ;
+ 
+}
+#hp,
+#hc,
+#hd {
+color: rgb(255, 255, 255);
+font-family: "Work Sans", Arial, sans-serif;
+margin: 1px 0px 0px 0px;
+Font-size: 26px;
+Font-weight: bold 400;
+Line-height: 34.8px;
+padding: 0px 0px 0px 10px ;
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+}
+.flex-container > .div1 {
+  margin: 20px 15px;
+  background-color: rgb(26, 209, 185);
+  border-radius: 10px;
+  width: 500px;
+  height: 325px;
+  padding:22px 20px 0px 10px;
+  margin-left: 210px;
+
+}
+.flex-container > .div2 {
+  margin: 20px 15px;
+  padding: 22px 20px 0;
+  background-color: #3d83df;
+  border-radius: 10px;
+  width: 500px;
+  height: 325px;
+  justify-content: space-between;
+  
+}
+.flex-container > .div3 {
+  margin: 20px 15px;
+  padding: 22px 20px 0;
+  background-color: #202c39;
+  border-radius: 10px;
+  height: 325px;
+  width: 500px;
+  justify-content: space-between;
+
+  margin-right: 210px;
+  
+}
+
+.soo3,
+.soo33 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 24.96px;
+  background: transparent;
+  cursor: pointer;
+  border: 0px;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+
+}
+.soo2{
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    border: 0px;
+    background: transparent;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.so1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 24.96px;
+  background:transparent;
+  cursor: pointer;
+  border: 0px;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+
+}
+.ch1{
+  color:black;
+  background:rgb(255, 255, 255);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.96px;
+  
+}
+
+#h11 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33.8px;
+  color: rgb(0, 179, 155);
+  margin-left: 200px;
+  margin-bottom: -220px;
+  padding: 0 26 0 0px;
+}
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -140px;
+  margin-bottom: 150px;
+  margin-left: 500px;
+  width: 50%;
+}
+
+#fig1,
+#fig2,
+#fig3,
+#fig4,
+#fig5 {
+  height: 20px;
+  width: 20px;
+  max-width: 100%;
+  padding-left: 10px;
+  margin-right: 3px;
+  margin-bottom: -6px;
+  display: inline;
+  color: #dadada;
+}
+.menulogo {
+display: flex;
+justify-content: space-around;
+margin-left: 20px;
+margin-bottom: 40px;
+margin-top: 100px;
+}
+.add{
+  font-family: Roboto, Arial, sans-serif;
+  Font-size: 18px;
+  Font-weight: 400;
+  Line-height: 20.8px;
+  color: rgb(160, 160, 160);
+text-decoration: bold;
+display: inline;
+}
+.nav1{
+  height:10px;
+  
+}
+.divlogo {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 11px;
+  margin-top: 0px;
+}
+
+#h15 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+  justify-items: end;
+  margin-left: 150px;
+margin-top: 60px;
+}
+#p15 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+  justify-items: end;
+  margin-left: 150px;
+}
+.block {
+  background-image: linear-gradient("https://www.docplanner.com/img/logo.png");
+  background-color: #d5f5f5;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  height: 600px;
+  overflow: hidden;
+}
+#logo100 {
+  margin-top: 60px;
+}
+.flexy {
+  width: 40%;
+ display: flex;
+  justify-content: space-around;
+}
+.part11 {
+ margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.part12 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.div11,
+.div12,
+.div13,
+.div14 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 240.5px;
+  width: 200px;
+}
+.h31,
+.h32,
+.h33,
+.h34 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 31.2px;
+  color: rgb(0, 179, 155);
+  text-align: center;
+}
+.p31,
+.p32,
+.p33,
+.p34 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.9px;
+  color: rgb(116, 116, 116);
+  text-align: center;
+}
+.hed {
+  width: 50%;
+}
+.hf {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  color: rgb(0, 179, 155);
+  text-align: center;
+  margin-top: 90px;
+}
+.pf {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+  text-align: center;
+}
+.containerimg {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  
+}
+.containerimg > .c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7 {
+  padding: 30px 50px 60px 50px;
+  background-color:#ffffff;
+  height: 270.5px;
+  width: 330px;
+  border-radius: solid black 10px;
+  margin: 30px 40px;
+  text-align: center;
+  
+}
+
+
+.div13,
+.div12,
+.div14,
+.div11{
+  text-align: center;
+  border: solid 1px white;
+}
+.pa,
+.mm,
+.pc,
+.pd,
+.pl,
+.pe,
+.pg {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(116, 116, 116);
+  display: inline;
+  text-align: left;
+  width: 20%;
+}
+.final,
+.pfinal {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding-top: 20px;
+}
+.city {
+  margin-right: 140px;
+  text-align: left;
+  
+}
+.b1 {
+  background-color: #1662c6;
+  color: white;
+  outline: none;
+  border: none;
+  height: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+border-radius: 5px;
+width: 90px;
+cursor: pointer;
+
+}
+
+.hover:hover{
+    box-shadow: 0 0 10px gray;
+}
+.but{
+ background-color: #1662c6;
+ color: white;
+outline: none;
+border: none;
+height: 40px;
+font-family: Roboto, Arial, sans-serif;
+font-size: 12px;
+font-weight: 700;
+border-radius: 5px;
+width:210px;
+text-align: center;
+cursor: pointer;
+}
+.add:hover{
+  color:rgb(0, 179, 155);
+}
+a{
+  text-decoration: none;
+}
+.finallist{
+  font-family: Roboto, Arial, sans-serif;
+  Font-size: 12px;
+  Font-weight: 400;
+  Line-height: 15.6px;
+  color: rgb(61, 131, 223);
+  
+}
+.lf{
+display: inline;
+
+}
+.ff{
+color:rgb(171, 171, 171) ;
+font-family: Roboto, Arial, sans-serif;
+Font-size: 12px;
+Font-weight: 400;
+Line-height: 15.6px;
+
+
+
+}
+.fh:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer{
+margin-top: 100px;
+margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  color:rgb(61, 131, 223) ;
+}
